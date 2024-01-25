@@ -1,0 +1,13 @@
+1. Basic Selectors
+a. Tag Names.
+b. Class => "."
+c. Id => "#"
+d. "*" Universal Selector 
+
+
+Box Model
+1. Content
+2. Padding
+3. Border
+4. Outline
+5. Margin
