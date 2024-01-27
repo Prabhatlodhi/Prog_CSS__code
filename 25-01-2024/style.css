@@ -1,0 +1,43 @@
+/* decendent selector */
+/* div p{
+    color: green;
+}
+
+p span{
+    color: red;
+} */
+
+/* decendent selector */
+/* direct child selector */
+
+/* ul li {
+  color: red;
+}
+
+.grand_parent > li{
+    color: green;
+} */
+
+/* direct child selector */
+/* adjacent sibling selector */
+
+/* #second_child + p{
+    color: red;
+}  */
+/* adjacent sibling selector */
+/* General Sibling Selector */
+
+
+/* div ~ ul{
+    color: red;
+} */
+
+/* General Sibling Selector */
+
+/* Attribute selector */
+
+img[src="./building image.jpg"]{
+    border: 15px solid blue;
+}
+
+/* Attribute selector */

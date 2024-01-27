@@ -4,6 +4,17 @@ b. Class => "."
 c. Id => "#"
 d. "*" Universal Selector 
 
+2. Combinator Selectors.
+a. Desecndent Selector.
+b. Direct Child Selector.
+c. Adjacent Sibling Selector.
+d. General Sibling Selector.
+
+3. Attribute Selector
+a. tagName[attribute].
+b. tagName[attribute="value"]
+
+
 
 Box Model
 1. Content
