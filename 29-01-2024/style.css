@@ -1,0 +1,7 @@
+/* p[class~="prabhat"] {
+  color: red;
+} */
+
+div p:nth-last-child(even){
+    color: red;
+}

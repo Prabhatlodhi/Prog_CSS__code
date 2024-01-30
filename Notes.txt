@@ -1,0 +1,36 @@
+25-01-2024
+
+1. Basic Selectors
+a. Tag Names.
+b. Class => "."
+c. Id => "#"
+d. "*" Universal Selector 
+
+2. Combinator Selectors.
+a. Desecndent Selector.
+b. Direct Child Selector.
+c. Adjacent Sibling Selector.
+d. General Sibling Selector.
+
+3. Attribute Selector
+a. tagName[attribute].
+b. tagName[attribute="value"].
+c. tagName[attribute^="value"] =>  Attribute begin with a certain value
+d. tagName[attribute|="value"] => Attribute begin with a certain value or seprated by a dash
+e. tagName[attribute$="value"] => attribute ends with
+f. tagName[attribute*="value"] => value present anywhere
+g. tagName[attribute~="value"] => space seprated value we can target
+
+4. Pseudo Classes
+a. :first-child
+b. :last-child
+c. :nth-child
+d. :nth-last-child
+
+
+Box Model
+1. Content
+2. Padding
+3. Border
+4. Outline
+5. Margin
