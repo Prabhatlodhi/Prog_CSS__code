@@ -1,0 +1,66 @@
+/* div:empty{
+    border: 1px solid red;
+} */
+
+/* p:not(.abc){
+    color: red;
+} */
+
+/* ul a:link{
+    color: red;
+} */
+
+/* ul a:hover{
+    color: red; 
+    background-color: red;
+    color: white;
+} */
+
+/* ul a:active{
+    color: red;
+} */
+
+/* li a:visited{
+    color: red;
+} */
+
+/* input:required{
+    border: 1px solid red;
+    background-color: red;
+} */
+
+/* input:in-range{
+    background-color: greenyellow;
+}
+
+input:out-of-range{
+    background-color: red;
+} */
+
+
+/* input:valid{
+    background-color: greenyellow;
+}
+
+input:invalid{
+    background-color: red;
+} */
+
+
+.parent{
+    border: 1px solid red;
+    background-color: aqua;
+    
+}
+
+.para{
+    border: 1px solid red;
+    background-color: aqua;
+}
+
+.myname{
+    display: inline-block;
+    border: 1px solid red;
+    background-color: aqua;
+    height: 100px;
+}

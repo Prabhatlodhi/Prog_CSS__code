@@ -15,7 +15,7 @@ d. General Sibling Selector.
 3. Attribute Selector
 a. tagName[attribute].
 b. tagName[attribute="value"].
-c. tagName[attribute^="value"] =>  Attribute begin with a certain value
+c. tagName[attribute^="value"] => Attribute begin with a certain value
 d. tagName[attribute|="value"] => Attribute begin with a certain value or seprated by a dash
 e. tagName[attribute$="value"] => attribute ends with
 f. tagName[attribute*="value"] => value present anywhere
@@ -26,7 +26,25 @@ a. :first-child
 b. :last-child
 c. :nth-child
 d. :nth-last-child
+e. :empty
+f. :not()
 
+anchor tag
+g. :link
+h. :hover
+i. :active
+j. :visited
+
+form elements
+k. :required
+l. :disabled
+number
+m. :in-range
+n. :out-of-range
+o. :valid
+p. :invalid
+
+p. :root
 
 Box Model
 1. Content
