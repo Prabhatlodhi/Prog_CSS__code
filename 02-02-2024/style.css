@@ -1,0 +1,70 @@
+/* :root {
+  --maincolor: rgb(238, 123, 35);
+  --border_prabhat:1px solid blue;
+}
+
+.submit_button{
+    color: var(--maincolor);
+    border: var(--border_prabhat)
+}
+
+p{
+    color: var(--main-color);
+} */
+
+
+/* p::first-letter{
+    background-color: red;
+}
+
+li::first-letter{
+    color: red;
+} */
+
+/* p::first-line{
+    color: red;
+} */
+
+/* p::selection{
+    background-color: red;
+} */
+
+/* input::placeholder{
+    color: red;
+} */
+
+/* p::before{
+    content: "<h2>Chapter</h2> ";
+    background-color: aqua;
+}
+
+p::after{
+    content: "Bootcamp ";
+    color: red;
+} */
+
+
+.parent{
+    background-color: aqua;
+    border: 8px solid aqua;
+    height: 150vh;
+    /* position: relative; */
+}
+
+.child_one{
+    background-color: red;
+    position: sticky;
+    top: 0px;
+    /* left: 200px; */
+    /* right: 10px; */
+    /* bottom: 20px; */
+}
+
+.child_two{
+    background-color: rgb(91, 210, 55);
+}
+
+.child_three{
+    background-color: blanchedalmond;
+}
+
