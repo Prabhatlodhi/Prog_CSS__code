@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.wrapper{
+    border: 1px solid red;
+    display: flex;
+    height: 100vh;
+}
+
+.child_one{
+    border: 1px solid blue;
+    height: 100px;
+    width: 10px;
+   
+}
+
+.one{ 
+    order: 1;
+   flex-basis: 200px; 
+   /* flex-grow: 1; */
+   flex-shrink: 2;
+}
+
+.two{ 
+    order: 30;
+    flex-basis: 200px; 
+    /* flex-grow: 4; */
+    flex-shrink: 4;
+ }
+
+ .three{ 
+    order: 10;
+    flex-basis: 200px; 
+ }

@@ -1,0 +1,78 @@
+/* .parent{
+    border: 5px solid red;
+    background-color: aqua;
+    height: 150vh;
+    position: relative;
+} */
+
+/* .child_one{
+    background-color: blueviolet;
+    position: sticky;
+    top: 0px;
+}
+
+.child_two{
+    background-color: yellow;
+}
+
+.child_three{
+    background-color: rgb(69, 223, 69);
+} */
+
+/* p{
+    color: red;
+}
+
+p{
+    color: blue;
+} */
+
+/* #one{
+    color: blue;
+}
+
+.para{
+    color: red;
+} */
+
+/* .hello{
+    color: chartreuse;
+} */
+
+/* #parent .para a{
+    color: red;
+} */
+
+.wrapper{
+    border: 1px solid red;
+    height: 300px;
+}
+
+.child_one{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    visibility: hidden;
+}
+
+.child_two{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(30, 61, 170);
+}
+
+.child_three{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(110, 224, 97);
+}
+
+/* 100 + 10 + 1*/
+/* a{
+    background-color: rgb(30, 213, 48);
+} */
+
+#parent .para a{
+    /* border: 1px solid red; */
+    background-color: rgb(224, 124, 24);
+}

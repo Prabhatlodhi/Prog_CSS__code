@@ -1,0 +1,16 @@
+Specificity - 
+
+a. Inline Styling => 1000
+b. Id => 100
+c. Classes,attributes, Pseudo-Classes => 10
+d. Elements, Pseudo-Elements => 1
+
+
+
+#parent .para a:hover{
+    color: red;
+}
+
+100 + 10 + 1 + 10 = 121
+
+= 150 
