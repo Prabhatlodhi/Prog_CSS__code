@@ -1,0 +1,7 @@
+FLEX - 
+
+a. display - FLEX
+b. flex-direction - row(default), row-reverse, column, column-reverse.
+c. flex-wrap - nowrap(default)
+d. flex-flow - shorthand property
+e. justify-content - flex-start, flex-end, center, space-between, space-around, space-evenly
