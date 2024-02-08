@@ -1,34 +1,35 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.parent{
-    border: 2px solid red;
-    /* height: 100vh; */
-    display: grid;
-    grid-template-columns: 150px 150px 150px 150px;
-    grid-template-rows: 150px 150px;
-    /* gap: 20px; */
-    grid-row-gap: 20px;
-    grid-column-gap: 20px;
+.parent {
+  border: 2px solid red;
+  display: grid;
+
+  grid-template-columns: 150px 150px 150px 150px;
+  /* grid-template-rows: 150px 150px; */ 
+  /* gap: 20px; */
+  /* grid-row-gap: 20px;
+    grid-column-gap: 20px; */
+    /* grid-template-areas: "aa aa aa"; */
 }
 
-.one{
-    border: 1px solid gray;
-    width: 150px;
-    height: 150px;
+.one {
+  border: 2px solid gray;
+  width: 150px;
+  height: 150px;
 }
 
-.box1{
-    background-color: aqua;
+.box1 {
+  background-color: aqua;
 }
 
-.box2{
-    background-color: rgb(113, 226, 69);
+.box2 {
+  background-color: rgb(113, 226, 69);
 }
 
-.box3{
-    background-color: rgb(238, 159, 75);
+.box3 {
+  background-color: rgb(238, 159, 75);
 }
