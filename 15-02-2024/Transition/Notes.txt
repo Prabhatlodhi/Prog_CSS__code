@@ -1,0 +1,6 @@
+Transition -
+
+a. transition-property
+b. transition-duration
+c. transition-delay
+d. transition-timing-function

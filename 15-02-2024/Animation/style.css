@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  height: 100vh;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  height: 150px;
+  width: 150px;
+  border: 2px solid red;
+  font-size: 23px;
+  text-align: center;
+  line-height: 150px;
+  animation-name:animation-prabhat;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  /* animation-direction: normal; */
+  /* animation-direction: reverse; */
+  animation-direction: alternate;
+  /* animation-direction: alternate-reverse; */
+}
+
+
+@keyframes animation-prabhat {
+    from {
+      border-radius: 0px;
+      background-color: blueviolet;
+      color: white;
+    }
+    to{
+        border-radius: 80px;
+        background-color: chartreuse;
+        color: red;
+    }
+}
+
+
+
