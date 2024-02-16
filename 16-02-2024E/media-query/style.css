@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  height: 80px;
+  background-color: aqua;
+  margin: 10px 0px;
+}
+
+.box-1 {
+  background-color: bisque;
+}
+
+/* @media (min-width: 700px) and (max-width: 1000px) {
+  .box-1 {
+    background-color: red;
+    width: 500px;
+  }
+} */
+
+@media (700px <= width <= 1000px) {
+    .box-1 {
+      background-color: red;
+      width: 500px;
+    }
+  }

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid grey;
+    margin: 10px 0px;
+    background-color: blueviolet;
+    color: white;
+    animation-name:animation-prop;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.box-1{
+    animation-timing-function: ease;
+    background-color: aquamarine;
+}
+
+.box-2{
+    animation-timing-function: ease-in; 
+    background-color: rgb(230, 149, 98);
+}
+
+.box-3{
+    animation-timing-function: ease-out; 
+    background-color: rgb(229, 71, 224);
+}
+
+.box-4{
+    animation-timing-function: linear; 
+    background-color: rgb(62, 43, 31);
+}
+
+.box-5{
+    animation-timing-function: ease-in-out; 
+    background-color: rgb(48, 217, 232);
+}
+
+.box-6{
+    animation-timing-function: steps(6); 
+    background-color: rgb(65, 97, 209);
+}
+
+@keyframes animation-prop {
+    from{
+        width: 100px;
+    }
+    to{
+        width: 500px;
+    }
+}
